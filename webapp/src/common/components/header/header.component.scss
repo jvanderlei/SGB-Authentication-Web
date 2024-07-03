@@ -1,13 +1,24 @@
 .header {
   overflow: hidden;
   background-color: #000320;
-  padding: 20px 10px;
 }
 
-.text {
-  color: #DAA300;
+#logo {
+  padding: 12px 12px;
+  text-align: center;
+  float: left;
 }
 
-.subtext {
+.title {
   color: #E2E2E2;
+  font-size: 32px;
+}
+
+.subtitle {
+  font-size: 16px;
+}
+
+img {
+  width: 50px;
+  height: 50px;
 }
