@@ -1,13 +1,14 @@
 import { Component, Input } from '@angular/core';
-import { ProgressSpinnerModule } from 'primeng/progressspinner';
+import { ButtonModule } from 'primeng/button';
 
 
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [ProgressSpinnerModule],
+  imports: [ButtonModule],
   templateUrl: './header.component.html',
   styleUrl: './header.component.scss'
 })
 export class HeaderComponent {
+  isCountryAvailable: boolean = false;
 }
