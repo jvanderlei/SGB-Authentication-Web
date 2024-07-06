@@ -33,8 +33,9 @@
 
 						],
 						"styles": [
-							"src/styles.scss"
-						],
+              "@angular/material/prebuilt-themes/azure-blue.css",
+              "src/styles.scss"
+            ],
 						"scripts": []
 					},
 					"configurations": {
@@ -91,8 +92,10 @@
 							}
 						],
 						"styles": [
-							"src/styles.scss"
-						],
+              "@angular/material/prebuilt-themes/azure-blue.css",
+              "../node_modules/normalize.css/normalize.css",
+              "src/styles.scss"
+            ],
 						"scripts": []
 					}
 				}

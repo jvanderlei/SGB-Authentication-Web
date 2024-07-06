@@ -1,11 +1,11 @@
-import { Component, Input } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
+import { Component, Input, NgModule } from '@angular/core';
+import {MatButtonModule} from '@angular/material/button';
 
 
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [ButtonModule],
+  imports: [MatButtonModule],
   templateUrl: './header.component.html',
   styleUrl: './header.component.scss'
 })
