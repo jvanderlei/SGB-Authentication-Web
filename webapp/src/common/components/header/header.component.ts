@@ -10,5 +10,5 @@ import {MatButtonModule} from '@angular/material/button';
   styleUrl: './header.component.scss'
 })
 export class HeaderComponent {
-  isCountryAvailable: boolean = false;
+
 }

@@ -1,6 +1,9 @@
 .header {
   overflow: hidden;
   background-color: #000320;
+  margin: 0;
+  display: flex;
+  justify-content: space-between 
 }
 
 #logo {
@@ -16,9 +19,20 @@
 }
 
 .header-button {
-
+  font-size: 20px;
+  color: #333333;
+  align-self: auto;
+  margin: 12px;
+  text-wrap: nowrap;
 }
 
+.golden-button {
+  background: #DAA300;
+}
+
+.blue-button {
+  background: #e2e2e2;
+}
 
 .title {
   color: #E2E2E2;
