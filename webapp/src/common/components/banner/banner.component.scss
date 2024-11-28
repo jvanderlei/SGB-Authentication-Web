@@ -1,0 +1,38 @@
+.img-container {
+    width: 100%;
+    position:relative;
+    color: #E2E2E2;
+    display: flex;
+    align-items: center;
+
+        .overimg {
+            float: left;
+            position: absolute;
+            max-width: 50%;
+            margin: auto;
+            left: 5%;
+            padding: 15px;
+            background: rgb(0, 3, 32, 0.75);
+            
+            p { 
+                font-size: large;
+            }
+        }
+
+        .banner-button {
+            font-size: 20px;
+            color: #333333;
+            align-self: auto;
+            margin: 12px;
+            text-wrap: nowrap;
+            background: #DAA300;
+          }
+        
+
+        img {
+            width: 100%;
+        }
+}
+
+
+
